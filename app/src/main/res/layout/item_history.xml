@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewId" />
+
+    <TextView
+        android:id="@+id/textViewUserPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="User Phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserLogin" />
+
+    <TextView
+        android:id="@+id/textViewFilename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Filename"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserPhone" />
+
+    <TextView
+        android:id="@+id/textViewPlateNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Plate Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFilename" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
